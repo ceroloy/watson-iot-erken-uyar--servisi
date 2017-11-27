@@ -21,11 +21,11 @@ float getDistance();
 
 //IBM Cloud information
 // *******************************************************************************************************
-char orgName[] = "pcbj4a"; // CHANGE THIS
-char macstr[] = "MyArduino"; // CHANGE THIS
-char server[] = "pcbj4a.messaging.internetofthings.ibmcloud.com"; // CHANGE THIS
-char type[] = "ArduinoYun"; // CHANGE THIS
-char token[] = "MyArduinoToken"; // CHANGE THIS
+char orgName[] = ""; // CHANGE THIS
+char macstr[] = ""; // CHANGE THIS
+char server[] = ".messaging.internetofthings.ibmcloud.com"; // CHANGE THIS
+char type[] = ""; // CHANGE THIS
+char token[] = ""; // CHANGE THIS
 int port = 1883;
 String clientName = buildClientName();
 String topicName = String("iot-2/cmd/+/fmt/json");
